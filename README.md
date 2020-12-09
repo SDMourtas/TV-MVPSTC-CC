@@ -7,7 +7,7 @@ The purpose of this package is to solve online the continuous TV-MVPSTC-CC probl
 * X. Jiang and S. Li, \BAS: Beetle Antennae Search Algorithm for Optimization Problems," arXiv preprint, vol. abs/1710.10724, 2017.
 
 Also, the package includes the following two Matlab functions for comparison purposes:
-* Yarpiz (2020). Differential Evolution (DE) (https://www.mathworks.com/matlabcentral/fileexchange/52897-differential-evolution-de), MATLAB Central File Exchange. Retrieved December 8, 2020.\
+* Yarpiz (2020). Differential Evolution (DE) (https://www.mathworks.com/matlabcentral/fileexchange/52897-differential-evolution-de), MATLAB Central File Exchange. Retrieved December 8, 2020.
 * Yarpiz (2020). Firefly Algorithm (FA) (https://www.mathworks.com/matlabcentral/fileexchange/52900-firefly-algorithm-fa), MATLAB Central File Exchange. Retrieved December 8, 2020.
 
 These two Matlab functions can also be found in https://yarpiz.com/. Note that these functions have been appropriately modified for the TV-MVPSTC-CC problem.
