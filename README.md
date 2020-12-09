@@ -32,8 +32,8 @@ These two Matlab functions can also be found in https://yarpiz.com/. Note that t
 * DE.m: appropriately modified DE algorithm
 * FA.m: appropriately modified FA algorithm
 # Installation
-* Unzip the file you just downloaded and copy the TVMVPSTCCC directory to a location,e.g.,/my-directory/
-* Run Matlab/ Octave, Go to /my-directory/ TVMVPSTCCC / at the command prompt
+* Unzip the file you just downloaded and copy the TV-MVPSTC-CC directory to a location,e.g.,/my-directory/
+* Run Matlab/ Octave, Go to /my-directory/ TV-MVPSTC-CC / at the command prompt
 * run 'Main_TVMVPSTCCC' (Matlab/Octave)
 # Results
 After running the Main_TVMVPSTCCC.m file, the package outputs are the following:
@@ -41,4 +41,4 @@ After running the Main_TVMVPSTCCC.m file, the package outputs are the following:
 * The time consumptions of BAS, DE and FA.
 * The graphic illustration of the optimal portfolios along with their expected return, variance and transaction cost.
 # Environment
-The TVMVPSTCCC package has been tested in Matlab 2018b on OS: Windows 10 64-bit.
+The TV-MVPSTC-CC package has been tested in Matlab 2018b on OS: Windows 10 64-bit.
