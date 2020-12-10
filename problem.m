@@ -1,0 +1,10 @@
+function [xi_minus,xi_plus,A,b,pr,w]=problem(t,p,m,c,noep,x1)
+o=omega(noep,t);
+n=length(x1);
+w=c(o*t); % variance
+r=m(o*t); % expected return
+A=-r';
+b=-min(r); % target expected return
+pr=p(o*t); % market price, X(t)
+xi_plus=x1'*pr./pr; % upper limit
+xi_minus=zeros(n,1); % lower limit
