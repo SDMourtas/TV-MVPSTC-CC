@@ -36,8 +36,7 @@ else
 end
 
 % BAS solutions
-xbas=zeros(n,tot);
-fbas=zeros(1,tot);
+xbas=zeros(n,tot);fbas=zeros(1,tot);
 tic
 [xbas(:,1),fbas(1)]=PBAS(t(1),p,m,c,K,noep,xp);
 for i=2:tot
@@ -51,8 +50,7 @@ ylabel(['\eta_{',num2str(i),'}(t)']);
 end
 
 % FA solutions
-xfa=zeros(n,tot);
-ffa=zeros(1,tot);
+xfa=zeros(n,tot);ffa=zeros(1,tot);
 tic
 [xi_minus,xi_plus,A,b,pr,w]=problem(t(1),p,m,c,noep,xp);
 xfa(:,1)=fa_ndim_new(A,pr,b,w,K,xi_minus',xi_plus',xp)';
@@ -69,8 +67,7 @@ subplot(n,1,i);plot(t,xfa(i,:),':r');hold on
 end
 
 % DE solutions
-xde=zeros(n,tot);
-fde=zeros(1,tot);
+xde=zeros(n,tot);fde=zeros(1,tot);
 tic
 [xi_minus,xi_plus,A,b,pr,w]=problem(t(1),p,m,c,noep,xp);
 xde(:,1)=de(A,pr,b,w,K,xp,xi_minus',xi_plus')';
@@ -92,9 +89,6 @@ legend('BAS','FA','DE')
 hold off
 
 % Figures
-arxbas=zeros(1,tot);
-arxfa=zeros(1,tot);
-arxde=zeros(1,tot);
 erxbas=zeros(1,tot);
 erxfa=zeros(1,tot);
 erxde=zeros(1,tot);
@@ -102,9 +96,6 @@ varxbas=zeros(1,tot);
 varxfa=zeros(1,tot);
 varxde=zeros(1,tot);
 for i=1:tot
-    arxbas(i)=xbas(:,i)'*p(omega(noep,t(i))*t(i));
-    arxfa(i)=xfa(:,i)'*p(omega(noep,t(i))*t(i));
-    arxde(i)=xde(:,i)'*p(omega(noep,t(i))*t(i));
     erxbas(i)=xbas(:,i)'*m(omega(noep,t(i))*t(i));
     erxfa(i)=xfa(:,i)'*m(omega(noep,t(i))*t(i));
     erxde(i)=xde(:,i)'*m(omega(noep,t(i))*t(i));
