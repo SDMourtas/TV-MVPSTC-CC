@@ -15,8 +15,8 @@
 %   Main paper: V.N.Katsikis, S.D.Mourtas, P.S.Stanimirovic, S.Li,  %
 %               X.Cao, "Time-Varying Mean-Variance Portfolio        %
 %               Selection under Transaction Costs and Cardinality   %
-%               Constraint Problem," SN Oper. Res. Forum (submitted)%
-%                                                                   %
+%               Constraint Problem," SN Oper. Res. Forum, 2(18),    %
+%               2021.                                               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear 
