@@ -1,9 +1,9 @@
 # Time-Varying Markowitz Based Portfolio Selection
 The Markowitz mean-variance portfolio selection is widely acclaimed as a very important investment strategy. The Time-Varying Mean-Variance Portfolio Selection under Transaction Costs and Cardinality Constraint (TV-MVPSTC-CC) problem is a time-varying nonlinear programming problem and comprises the properties of a moving average. Because of this, TV-MVPSTC-CC is more realistic and an even greater analysis tool suitable to evaluate investments and identify trading opportunities across a continuous-time period than the original mean-variance portfolio selection problem.\
 The purpose of this package is to solve online the continuous TV-MVPSTC-CC problem in discrete time by using a penalty-based Beetle Antennae Search (BAS) algorithm. Several algorithms from the literature are currently implemented, based on the available literature and our understanding. More precisely, the main articles used are the followings:
-* V.N.Katsikis, S.D.Mourtas, P.S.Stanimirovic, S.Li, X.Cao, Time-Varying Mean-Variance Portfolio Selection under Transaction Costs and Cardinality Constraint Problem. SN Oper. Res. Forum (submitted)
+* V.N.Katsikis, S.D.Mourtas, P.S.Stanimirovic, S.Li, X.Cao, Time-Varying Mean-Variance Portfolio Selection under Transaction Costs and Cardinality Constraint Problem. SN Oper. Res. Forum, 2(18), 2021.
 * X.S. Yang, Nature-inspired optimization algorithms. Elsevier, 2014.
-* K. Deb, Optimization for Engineering Design: Algorithms and Examples. PHI, second ed., July 2013.
+* K. Deb, Optimization for Engineering Design: Algorithms and Examples. PHI, second ed., 2013.
 * X. Jiang and S. Li, BAS: Beetle Antennae Search Algorithm for Optimization Problems. arXiv preprint, vol. abs/1710.10724, 2017.
 
 Also, the package includes the following two Matlab functions for comparison purposes:
